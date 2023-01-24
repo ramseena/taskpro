@@ -477,7 +477,7 @@ setLoading(true)
         <View style={{ paddingRight: 30, paddingLeft: 15, backgroundColor: '#f47822', flexDirection: "row", paddingTop: deviceType === 2 ? "1%" : "7%" }} >
           <TouchableOpacity onPress={() => navigation.openDrawer()}><Image source={require('../../images/hamburger.png')} style={{ width: 60, height: 60, resizeMode: "contain" }}></Image></TouchableOpacity>
           <View style={{ flex: 1 }} />
-          <TouchableOpacity onPress={showConfirmDialog}><Image source={require('../../images/power-off.png')} style={styles.logout}></Image></TouchableOpacity>
+          <TouchableOpacity onPress={showConfirmDialog}><Image source={require('../../images/power-off.png')} style={styles.fv}></Image></TouchableOpacity>
         </View>
         <View style={{ flex: .2, backgroundColor: '#f47822', marginTop: -0, alignItems: 'center', justifyContent: 'center', marginBottom: 30 }}>
           <Text style={styles.titleText}>Hi {userName}!</Text>
